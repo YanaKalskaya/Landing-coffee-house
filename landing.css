@@ -1,0 +1,251 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+
+    background: #FFFFFF;
+
+    position: fixed;
+}
+.menu__logo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #000000;
+
+    margin-left: 80px;
+}
+.menu__ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 80px;
+}
+.menu__li{
+    display: flex;
+    align-items: center;
+
+    margin-left: 46px;
+}
+.menu__link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    text-decoration: none;
+}
+.menu__link:hover{
+    font-weight: 500;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 665px;
+    background-image: URL(https://source.unsplash.com/vSuQJKZkt4U/1920x1080);
+    background-size: cover;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.banner__line{
+    align-items: "center";
+
+    width: 80px;
+    height: 10px;
+    left: 687px;
+    top: 362px;
+
+    border: none;
+
+    background: #817070;
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.story{
+    display: flex;
+    align-items: center;
+    margin-bottom: 59px;
+}
+.story__img{
+    width: 600px;
+    height: 400px;
+    margin-left: 60px;
+}
+.story__p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+
+    margin-left: 40px;
+    margin-right: 123px;
+}
+.blog{
+    background: #EFEFEF;    
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 325px;
+    background: #FFFFFF;
+
+    padding: 20px;
+    margin-bottom: 65px;
+}
+.card__topic{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #000000;
+
+    margin-bottom: 24px;
+}
+.card__img{
+    width: 325px;
+    height: 216px;
+}
+.card__p{
+    width: 325px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+
+    margin-top: 24px;
+}
+.footer__top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 337px;
+
+    background: #817070;
+}
+.footer__p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 28px;
+}
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__input{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    width: 300px;
+    height: 55px;
+    background: #817070;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+
+    margin-bottom: 28px;
+}
+.footer__input::placeholder{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.footer__button{
+    width: 129px;
+    height: 55px;
+
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #817070;
+}
+.footer__button:active{
+    background: #817070;
+    color: #FFFFFF;
+}
+.footer__bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 73px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
